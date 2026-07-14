@@ -1,0 +1,46 @@
+seed: 42
+image_size: 224
+num_workers: 4
+pin_memory: true
+
+train:
+  batch_size: 32
+  phase1_epochs: 8
+  phase2_epochs: 20
+  phase1_lr: 1.0e-3
+  phase2_lr: 1.0e-4
+  weight_decay: 1.0e-4
+  amp: true
+  early_stopping_patience: 7
+  reduce_lr:
+    factor: 0.5
+    patience: 3
+    min_lr: 1.0e-7
+  val_ratio: 0.15
+  test_ratio: 0.15
+
+data:
+  root: data
+  plantvillage:
+    name: plantvillage
+    source: huggingface  # or kaggle
+    hf_id: mohanty/PlantVillage
+    hf_config: color
+  tomato:
+    name: tomato
+    source: plantvillage_subset  # filtered from PlantVillage
+  cassava:
+    name: cassava
+    source: kaggle
+    kaggle_id: agranamanyaa/cassava-leaf-disease-classification
+
+models:
+  backbones:
+    - efficientnet_b3
+    - resnet50
+  pretrained: true
+  dropout: 0.3
+
+paths:
+  checkpoints: checkpoints
+  results: results

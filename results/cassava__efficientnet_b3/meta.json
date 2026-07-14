@@ -1,0 +1,17 @@
+{
+  "dataset": "cassava",
+  "backbone": "efficientnet_b3",
+  "classes": [
+    "Cassava_Bacterial_Blight",
+    "Cassava_Brown_Streak_Disease",
+    "Cassava_Green_Mottle",
+    "Cassava_Mosaic_Disease",
+    "Healthy"
+  ],
+  "num_classes": 5,
+  "seed": 42,
+  "image_size": 224,
+  "optimizer": "Adam",
+  "scheduler": "ReduceLROnPlateau",
+  "strategy": "two_phase_transfer_learning"
+}

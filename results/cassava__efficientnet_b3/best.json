@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.4141511310965328,
+  "best_val_acc": 0.8580508474576272,
+  "checkpoint": "checkpoints\\cassava__efficientnet_b3_best.pt"
+}

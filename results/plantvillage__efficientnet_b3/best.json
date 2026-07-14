@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.00683652702924518,
+  "best_val_acc": 0.9981613140475607,
+  "checkpoint": "checkpoints\\plantvillage__efficientnet_b3_best.pt"
+}

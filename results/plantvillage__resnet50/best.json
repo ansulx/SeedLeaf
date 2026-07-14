@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.010498036719268107,
+  "best_val_acc": 0.9969355234126012,
+  "checkpoint": "checkpoints\\plantvillage__resnet50_best.pt"
+}

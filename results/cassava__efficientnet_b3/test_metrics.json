@@ -1,0 +1,91 @@
+{
+  "accuracy": 0.844742413549753,
+  "precision_macro": 0.78292540881781,
+  "recall_macro": 0.8012087875475657,
+  "f1_macro": 0.7856244918633781,
+  "precision_weighted": 0.8524197587132215,
+  "recall_weighted": 0.844742413549753,
+  "f1_weighted": 0.8455319358667422,
+  "classification_report": {
+    "Cassava_Bacterial_Blight": {
+      "precision": 0.7340425531914894,
+      "recall": 0.5897435897435898,
+      "f1-score": 0.6540284360189573,
+      "support": 117.0
+    },
+    "Cassava_Brown_Streak_Disease": {
+      "precision": 0.7832512315270936,
+      "recall": 0.8808864265927978,
+      "f1-score": 0.8292046936114733,
+      "support": 361.0
+    },
+    "Cassava_Green_Mottle": {
+      "precision": 0.819672131147541,
+      "recall": 0.7731958762886598,
+      "f1-score": 0.7957559681697612,
+      "support": 194.0
+    },
+    "Cassava_Mosaic_Disease": {
+      "precision": 0.9470304975922953,
+      "recall": 0.8872180451127819,
+      "f1-score": 0.9161490683229814,
+      "support": 665.0
+    },
+    "Healthy": {
+      "precision": 0.6306306306306306,
+      "recall": 0.875,
+      "f1-score": 0.7329842931937173,
+      "support": 80.0
+    },
+    "accuracy": 0.844742413549753,
+    "macro avg": {
+      "precision": 0.78292540881781,
+      "recall": 0.8012087875475657,
+      "f1-score": 0.7856244918633781,
+      "support": 1417.0
+    },
+    "weighted avg": {
+      "precision": 0.8524197587132215,
+      "recall": 0.844742413549753,
+      "f1-score": 0.8455319358667422,
+      "support": 1417.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      69,
+      28,
+      8,
+      4,
+      8
+    ],
+    [
+      12,
+      318,
+      8,
+      9,
+      14
+    ],
+    [
+      4,
+      10,
+      150,
+      19,
+      11
+    ],
+    [
+      5,
+      45,
+      17,
+      590,
+      8
+    ],
+    [
+      4,
+      5,
+      0,
+      1,
+      70
+    ]
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.009779957829703787,
+  "best_val_acc": 0.9970663733039971,
+  "checkpoint": "checkpoints\\tomato__efficientnet_b3_best.pt"
+}

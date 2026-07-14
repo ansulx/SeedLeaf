@@ -1,0 +1,98 @@
+/* SeedLeaf — botanical research aesthetic */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Source+Sans+3:wght@400;500;600&display=swap');
+
+:root {
+  --sl-bg0: #0c1612;
+  --sl-bg1: #132019;
+  --sl-bg2: #1a2e24;
+  --sl-leaf: #3d8b5f;
+  --sl-leaf-bright: #6fcf97;
+  --sl-mist: #c5d9cc;
+  --sl-cream: #e8f0ea;
+  --sl-amber: #c4a35a;
+  --sl-text: #e8f0ea;
+  --sl-muted: #9bb5a5;
+}
+
+html, body, [data-testid="stApp"] {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(61, 139, 95, 0.25), transparent 55%),
+    radial-gradient(900px 500px at 100% 0%, rgba(196, 163, 90, 0.12), transparent 50%),
+    linear-gradient(165deg, var(--sl-bg0) 0%, var(--sl-bg1) 45%, #0f1c16 100%) !important;
+  color: var(--sl-text);
+  font-family: "Source Sans 3", "Segoe UI", sans-serif;
+}
+
+h1, h2, h3, .sl-brand {
+  font-family: "Fraunces", Georgia, serif !important;
+  letter-spacing: -0.02em;
+  color: var(--sl-cream) !important;
+}
+
+.sl-brand {
+  font-size: clamp(2.6rem, 6vw, 4.2rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0.2rem 0 0.4rem 0;
+}
+
+.sl-tagline {
+  color: var(--sl-mist);
+  font-size: 1.15rem;
+  max-width: 38rem;
+  line-height: 1.5;
+}
+
+.sl-chip {
+  display: inline-block;
+  border: 1px solid rgba(111, 207, 151, 0.35);
+  color: var(--sl-leaf-bright);
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  margin-right: 0.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.sl-panel {
+  background: linear-gradient(145deg, rgba(26, 46, 36, 0.85), rgba(19, 32, 25, 0.9));
+  border: 1px solid rgba(111, 207, 151, 0.18);
+  border-radius: 16px;
+  padding: 1.25rem 1.4rem;
+  margin: 0.75rem 0;
+}
+
+.sl-metric {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 1.8rem;
+  color: var(--sl-leaf-bright);
+}
+
+.sl-muted { color: var(--sl-muted); }
+
+div[data-testid="stSidebar"] {
+  background: linear-gradient(180deg, #101a14 0%, #0c1410 100%);
+  border-right: 1px solid rgba(111, 207, 151, 0.12);
+}
+
+.stButton > button {
+  background: linear-gradient(135deg, #2f6b4a, #3d8b5f) !important;
+  color: #f3fff7 !important;
+  border: none !important;
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+
+.stButton > button:hover {
+  filter: brightness(1.08);
+}
+
+[data-testid="stFileUploader"] {
+  background: rgba(26, 46, 36, 0.5);
+  border-radius: 12px;
+  padding: 0.5rem;
+}
+
+hr {
+  border-color: rgba(111, 207, 151, 0.15) !important;
+}

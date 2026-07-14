@@ -1,0 +1,68 @@
+[
+  {
+    "run": "cassava__efficientnet_b3",
+    "dataset": "cassava",
+    "backbone": "efficientnet_b3",
+    "accuracy": 0.844742413549753,
+    "f1_macro": 0.7856244918633781,
+    "precision_macro": 0.78292540881781,
+    "recall_macro": 0.8012087875475657,
+    "num_classes": 5,
+    "num_test_samples": 1417
+  },
+  {
+    "run": "cassava__resnet50",
+    "dataset": "cassava",
+    "backbone": "resnet50",
+    "accuracy": 0.863091037402964,
+    "f1_macro": 0.8061338642507572,
+    "precision_macro": 0.8157222964560761,
+    "recall_macro": 0.8079769389352591,
+    "num_classes": 5,
+    "num_test_samples": 1417
+  },
+  {
+    "run": "plantvillage__efficientnet_b3",
+    "dataset": "plantvillage",
+    "backbone": "efficientnet_b3",
+    "accuracy": 0.9981622151433472,
+    "f1_macro": 0.9969419791148578,
+    "precision_macro": 0.997472080876831,
+    "recall_macro": 0.9965361257019318,
+    "num_classes": 38,
+    "num_test_samples": 8162
+  },
+  {
+    "run": "plantvillage__resnet50",
+    "dataset": "plantvillage",
+    "backbone": "resnet50",
+    "accuracy": 0.996937025238912,
+    "f1_macro": 0.9954771084270011,
+    "precision_macro": 0.9958624424019635,
+    "recall_macro": 0.9952139445150245,
+    "num_classes": 38,
+    "num_test_samples": 8162
+  },
+  {
+    "run": "tomato__efficientnet_b3",
+    "dataset": "tomato",
+    "backbone": "efficientnet_b3",
+    "accuracy": 0.9963343108504399,
+    "f1_macro": 0.9956457274233905,
+    "precision_macro": 0.9954095582707941,
+    "recall_macro": 0.9958940101982957,
+    "num_classes": 10,
+    "num_test_samples": 2728
+  },
+  {
+    "run": "tomato__resnet50",
+    "dataset": "tomato",
+    "backbone": "resnet50",
+    "accuracy": 0.9963343108504399,
+    "f1_macro": 0.9952768842797874,
+    "precision_macro": 0.9953892728858371,
+    "recall_macro": 0.9951804447399792,
+    "num_classes": 10,
+    "num_test_samples": 2728
+  }
+]

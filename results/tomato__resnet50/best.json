@@ -1,0 +1,5 @@
+{
+  "best_val_loss": 0.01718869976915059,
+  "best_val_acc": 0.9933993399339934,
+  "checkpoint": "checkpoints\\tomato__resnet50_best.pt"
+}

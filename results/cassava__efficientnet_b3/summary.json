@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.844742413549753,
+  "f1_macro": 0.7856244918633781,
+  "precision_macro": 0.78292540881781,
+  "recall_macro": 0.8012087875475657,
+  "num_classes": 5,
+  "num_test_samples": 1417
+}
